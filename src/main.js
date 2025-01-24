@@ -19,7 +19,8 @@ body.appendChild(buttonGroup.dom)
 
 buttons.forEach(btnInfo => {
   const button = new Button(btnInfo.classList)
-  buttonGroup.add(button)
+  buttonGroup.add(button);
+  
 })
 
 
