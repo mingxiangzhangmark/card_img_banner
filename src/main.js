@@ -8,6 +8,8 @@ const body = document.querySelector('body')
 const images = data.images;
 const buttons = data.buttons;
 
+
+
 let background = new Background(images[1].address)
 body.appendChild(background.dom)
 
@@ -20,7 +22,7 @@ body.appendChild(buttonGroup.dom)
 buttons.forEach(btnInfo => {
   const button = new Button(btnInfo.classList)
   buttonGroup.add(button);
-  
+
 })
 
 
